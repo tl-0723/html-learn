@@ -1,0 +1,139 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+img{border:0 none;}
+ul{ list-style: none;}
+input::-ms-clear, input::-ms-reveal{display: none;}
+html{height: 100%}
+body{
+    min-width: 1000px;
+    min-height: 500px;
+    width: 100%;
+    height: 100%;
+    border: 0 none;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: black;
+    overflow: hidden;
+    background-image:url('../picture/junhyuk-lim-001.jpg');
+
+    font-family: "Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;
+}
+
+#mainBox{
+    width: 1000px;
+    background-color:;
+    margin-left:-500px;
+    /*margin-top:-194px;*/
+    display:none;
+    position: absolute;
+    left:50%;
+    top:50%;
+}
+
+#searchBox{width:720px;
+    height:54px;
+    margin:10px auto 0px auto;
+    color: #333333;
+    box-shadow:0 4px 10px rgba(0,0,0,.1);
+
+    filter: alpha(opacity=80);
+    -moz-opacity: 0.8;
+    -khtml-opacity: 0.8;
+    opacity: 0.8;
+    position: relative;
+    z-index:5;
+}
+
+#searchCheck{
+    float: left;
+    border-radius: 4px;
+    position: relative;
+    display: block;
+    background:white;
+    box-shadow:0 4px 10px rgba(0,0,0,.1);
+}
+
+#search{
+    width:610px;
+    height: 53px;
+    background:white;
+    float: left;
+    border: 0 none;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    outline: none;
+    font-size: 16px;
+    line-height: 44px;
+    padding-top: 1px;
+    padding-right: 60px;
+    display: block;
+    text-align: left;
+    color: #333333;
+}
+
+.sChoiceBtn {
+    width: 20px;
+    height: 20px;
+    margin: 17px auto 0 auto;
+    cursor: pointer;
+    display: block;
+    background-repeat: no-repeat;
+    -webkit-filter: grayscale(30%);
+    opacity: 0.7
+}
+
+.searchChoice {
+    width: 50px;
+    height: 54px;
+    background-color:white;
+    border-right: 0;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    float: left;
+    background-position: 12px 12px;
+    background-repeat: no-repeat;
+    position: relative
+}
+
+#searchBtn{
+    position:absolute;
+    right: 0;
+    width: 60px;
+    display: block;
+    height: 54px;
+    background:none;
+    background-image: url(../imag/searchbtn.png);
+    background-repeat: no-repeat;
+    background-position: 24px 0;
+    cursor: pointer;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    outline:none;
+    border:0 none;
+
+    outline: none;
+    position:absolute;
+    right: 1;
+    z-index: 10;
+}
+
+.keyword {
+    width:720px;
+    height: auto;
+    border-top:solid 1px #cccccc;
+    position: absolute;
+    top: 54px;
+    left:0px;
+    z-index: 40;
+    display: none;
+    font-size: 15px;
+    background-color: white;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    overflow: hidden;
+}
